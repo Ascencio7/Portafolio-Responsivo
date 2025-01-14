@@ -232,3 +232,36 @@ section.active{
     object-fit: cover;
     mix-blend-mode: lighten;
 }
+
+.heading{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.heading span{
+    color: var(--main-color);
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    padding: 3rem 2.5rem;
+    background: var(--second-bg-color);
+    border: 0.2rem solid var(--second-bg-color);
+    border-radius: 1rem;
+}
+
+.services-container .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-box .icon i{
+    font-size: 4.5rem;
+}
